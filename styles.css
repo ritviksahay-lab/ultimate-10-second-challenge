@@ -1,0 +1,35 @@
+p {
+  color:hsl(203, 92%, 75%);
+  font:italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  color:gold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  color:black;
+  background-color:gold;
+
+}
+
+button:hover{
+  background-color:#ffffff;
+  border-color: gold;
+}
+
+body {
+  border: 4px solid #ffcc00;
+  min-height: 100vh;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 20px rgba(255, 204, 0, 0.25);
+}
+
+video {
+  border: 4px solid #ffcc00;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 204, 0, 0.5);
+  box-sizing: border-box;
+}
